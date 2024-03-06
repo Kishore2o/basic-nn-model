@@ -6,11 +6,14 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 
-Explain the problem statement
+Neural networks consist of simple input/output units called neurons. These units are interconnected and each connection has a weight associated with it. Neural networks are flexible and can be used for both classification and regression. In this article, we will see how neural networks can be applied to regression problems.
+
+In this model we will discuss with a neural network with 3 layers of neurons excluding input . First hidden layer with 8 neurons , Second hidden layer with 9 neurons and final Output layer with 1 neuron to predict the regression case scenario.
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/85e7e40a-29d9-4e2f-9976-25a3a00d8020)
+
 
 ## DESIGN STEPS
 
@@ -103,24 +106,24 @@ ai_model.predict(X_n1_1)
 ```
 ## Dataset Information
 
-![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/a811ee65-fa6f-46a7-b389-e7eda21f79ec)
+![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/4390fda2-db4c-4a14-bc5c-1410c9ea70b2)
 
 
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
 
-![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/af8b8cad-0f5c-44fd-9994-40bea9235623)
+![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/64691c24-57aa-4201-a4ed-a45e8f3a723f)
 
 
 ### Test Data Root Mean Squared Error
 
-![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/477739e8-9481-4f1f-aeb9-71a56e750115)
+![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/60f679bf-09ec-453c-ac21-d475c980dd53)
 
 
 ### New Sample Data Prediction
 
-![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/c4eb4d5c-c6f4-4cb3-ae58-6799758623b6)
+![image](https://github.com/Kishore2o/basic-nn-model/assets/118679883/622ca6fc-f8fd-4820-89f7-b8df111aee77)
 
 
 ## RESULT
